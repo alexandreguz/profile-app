@@ -15,6 +15,12 @@ const config: Config = {
       },
     },
   },
+  variants: {
+    extend: {
+      textColor: ['active'],
+    },
+  },
   plugins: [],
 };
 export default config;
+
