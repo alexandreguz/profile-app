@@ -33,7 +33,10 @@ export default function NavbarLinks() {
                             })}
                         </ul>
                         <button className="bg-slate-300 hover:bg-gray-100 text-gray-800 font-semibold py-2 px-8 border border-gray-400 rounded shadow">
-                            <a href="#contact">Login</a>
+                            <Link 
+                            key={"login"}
+                            href={'/login'}> 
+                            Login</Link>
                         </button>
                     </div>
                 </div>
