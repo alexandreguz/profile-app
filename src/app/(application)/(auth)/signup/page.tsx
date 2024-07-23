@@ -1,5 +1,7 @@
+import SignUp from "@/components/SignUp";
+
 export default function signup() {
     return (
-        <div>signup</div>
+        <div><SignUp/> </div>
     )
 }
