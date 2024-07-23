@@ -6,7 +6,7 @@ const links = [
     { name: 'About', href: '/about' },
     { name: 'Practice Areas', href: '/practice' },
     { name: 'Team', href: '/team' },
-    { name: 'Blog', href: '/blog' },
+    { name: 'Pricing', href: '/pricing' },
     { name: 'Contact', href: '/contact' }
 ]
 
