@@ -28,11 +28,11 @@ export default function Login() {
                     </div>
                 </div>
 
-                <div className="w-full">
+                <div className="w-full m-auto">
                     <Image 
-                          src="/coffee-computer.png"
+                          src="/call_action.jpg"
                           width={1732}
-                          height={800}
+                          height={1000}
                           alt="Picture of the author"/>
                 </div>
                 
