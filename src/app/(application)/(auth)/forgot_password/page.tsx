@@ -1,5 +1,7 @@
+import ForgotPassword from "@/components/ForgotPassword";
+
 export default function forgotPassword() {
     return (
-        <div>forgot password</div>
+        <div><ForgotPassword/> </div>
     )
 }

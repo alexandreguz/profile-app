@@ -36,7 +36,7 @@ export default function Login() {
                 <Link key={"forgot_password"} href={"/forgot_password"}>
                   Forgot your password?
                 </Link>
-                <button className=" pb-2 pt-2 pr-3 pl-3 rounded-md  border-solid bg-yellow-900 text-white"
+                <button className=" pb-2 pt-2 pr-3 pl-3 rounded-md  border-solid bg-yellow-900 text-white hover:bg-yellow-950"
                         onClick={() => router.push('/dashboard')}
                 >
                   Login
