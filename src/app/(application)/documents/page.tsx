@@ -1,5 +1,9 @@
 export default function documents () {
     return (
-        <div> documents</div>
+        <>
+        <div className="p-4 sm:ml-64 bg-yellow-700 h-screen">
+          <div> documents</div>
+          </div>
+          </>
     )
 }
