@@ -15,7 +15,7 @@ export default function () {
                 <h1 className="text-white text-6xl ml-8 pt-36 font-semibold ">Winners for Global Legal Innovation</h1>
                 <br />
                 <p className="text-white ml-8 text-2xl w-3/5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate blanditiis nobis molestias voluptatum, libero quia quis ad itaque eligendi placeat in assumenda vel at, quos eius, doloribus doloremque ut quae.</p>
-                <button className="bg-red-800 hover:bg-gray-100 text-white font-semibold py-2 px-4 border mt-16 ml-8 h-16 rounded shadow">
+                <button className="bg-yellow-900 hover:bg-yellow-950  text-white font-semibold py-2 px-4 border mt-16 ml-8 h-16 rounded shadow">
                     <a href="#contact">Free Consultation</a>
                 </button>
 

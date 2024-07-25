@@ -10,7 +10,7 @@ export default function ForgotPassword() {
           <div className="w-full xl:w-3/4 lg:w-11/12 flex">
             <div className="w-full m-auto">
           <Image
-            src="/slider-3.jpg"
+            src="/slider-2.jpg"
             width={1732}
             height={1000}
             alt="Picture of the author"
@@ -36,7 +36,7 @@ export default function ForgotPassword() {
 
                 <div className="mb-6 text-center">
                   <button
-                    className="w-full px-4 py-2 font-bold text-white bg-yellow-900  rounded-full hover:bg-yellow-950 focus:outline-none focus:shadow-outline"
+                    className="w-full px-4 py-2 font-bold text-white bg-yellow-900  rounded-md hover:bg-yellow-950 focus:outline-none focus:shadow-outline"
                     type="button"
                   >
                     Reset Password

@@ -41,7 +41,7 @@ export default function SignUp() {
         </div>
         <div className="flex justify-between items-center mt-2 underline">
           <button className=" pb-2 pt-2 pr-3 pl-3 rounded-md  border-solid bg-yellow-900 text-white hover:bg-yellow-950"
-                  onClick={() => router.push('/registration')}
+                  onClick={() => router.push('/signup/registration')}
           >
             Sign Up
           </button>
