@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function Dashboard() {
   return (
     <>
@@ -9,8 +10,7 @@ export default function Dashboard() {
         <div className="h-full px-3 py-4 overflow-y-auto bg-yellow-900 dark:bg-gray-800">
           <ul className="space-y-2 font-medium">
             <li className="mb-10">
-              <a
-                href="#"
+              <Link key={"profile"} href={"/profile"}
                 className="flex items-center p-2 text-white rounded-lg dark:text-white hover:bg-yellow-950 dark:hover:bg-gray-700 group"
               >
                 <svg
@@ -23,12 +23,13 @@ export default function Dashboard() {
                   <path d="M16.975 11H10V4.025a1 1 0 0 0-1.066-.998 8.5 8.5 0 1 0 9.039 9.039.999.999 0 0 0-1-1.066h.002Z" />
                   <path d="M12.5 0c-.157 0-.311.01-.565.027A1 1 0 0 0 11 1.02V10h8.975a1 1 0 0 0 1-.935c.013-.188.028-.374.028-.565A8.51 8.51 0 0 0 12.5 0Z" />
                 </svg>
-                <span className="ms-3 text-xl">Profile</span>
-              </a>
+                <span className="ms-3 text-xl">
+                    Profile
+                </span>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+            <Link key={"dashboard"} href={"/dashboard"}
                 className="flex items-center p-2  text-white rounded-lg dark:text-white hover:bg-yellow-950 dark:hover:bg-gray-700 group"
               >
                 <svg
@@ -42,11 +43,10 @@ export default function Dashboard() {
                   <path d="M12.5 0c-.157 0-.311.01-.565.027A1 1 0 0 0 11 1.02V10h8.975a1 1 0 0 0 1-.935c.013-.188.028-.374.028-.565A8.51 8.51 0 0 0 12.5 0Z" />
                 </svg>
                 <span className="ms-3 text-xl">Dashboard</span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+            <Link key={"calendar"} href={"/calendar"}
                 className="flex items-center p-2  text-white rounded-lg dark:text-white hover:bg-yellow-950 dark:hover:bg-gray-700 group"
               >
                 <svg
@@ -62,11 +62,10 @@ export default function Dashboard() {
                   Calendar
                 </span>
                 <span className="inline-flex items-center justify-center px-2 ms-3 text-sm font-medium text-gray-800 bg-gray-100 rounded-full dark:bg-gray-700 dark:text-gray-300"></span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+            <Link key={"messages"} href={"/messages"}
                 className="flex items-center p-2  text-white rounded-lg dark:text-white hover:bg-yellow-950 dark:hover:bg-gray-700 group"
               >
                 <svg
@@ -84,11 +83,10 @@ export default function Dashboard() {
                 <span className="inline-flex items-center justify-center w-3 h-3 p-3 ms-3 text-sm font-medium text-blue-800 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300">
                   3
                 </span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+            <Link key={"documents"} href={"/documents"}
                 className="flex items-center p-2  text-white rounded-lg dark:text-white hover:bg-yellow-950 dark:hover:bg-gray-700 group"
               >
                 <svg
@@ -103,11 +101,10 @@ export default function Dashboard() {
                 <span className="flex-1 ms-3 whitespace-nowrap text-xl">
                   Documents
                 </span>
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+            <Link key={"requests"} href={"/requests"}
                 className="flex items-center p-2  text-white rounded-lg dark:text-white hover:bg-yellow-950 dark:hover:bg-gray-700 group"
               >
                 <svg
@@ -122,7 +119,7 @@ export default function Dashboard() {
                 <span className="flex-1 ms-3 whitespace-nowrap text-xl">
                   Requests
                 </span>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
