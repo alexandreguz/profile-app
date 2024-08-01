@@ -1,10 +1,9 @@
-// /components/Form2.js
 import React from 'react';
 
-const Form2 = () => {
+const EmployeeWorkContract = () => {
   return (
     <form>
-      <h2>Formulário 2</h2>
+      <h2>Employee Contract</h2>
       <label>
         Email:
         <input type="email" name="email" />
@@ -13,5 +12,5 @@ const Form2 = () => {
     </form>
   );
 };
+export default EmployeeWorkContract;
 
-export default Form2;

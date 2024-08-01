@@ -1,11 +1,15 @@
 "use client";
 
 import Link from "next/link";
-import Form1 from "@/ui/Form1";
-import Form2 from "@/ui/Form2";
 
 import React, { useState } from "react";
 import Modal from "@/ui/Modal";
+import ApartmentRentalContract from "@/forms/ApartmentRentalContract";
+import AttorneyContract from "@/forms/AttorneyContract";
+import ApartmentSellContract from "@/forms/ApartmentSellContract";
+import EmployeeWorkContract from "@/forms/EmployeeWorkContract";
+import PrenuptialContract from "@/forms/PrenuptialContract";
+import WarningLetter from "@/forms/WarningLetter";
 
 export default function Documents() {
   const [showModal, setShowModal] = useState(false);
@@ -24,37 +28,37 @@ export default function Documents() {
     <div>
       <button
         className="bg-slate-400 border"
-        onClick={() => handleButtonClick(<div><Form1 /></div>)}
+        onClick={() => handleButtonClick(<div><AttorneyContract/></div>)}
       >
         Letter of Attorney
       </button>
       <button
         className="bg-slate-400 border"
-        onClick={() => handleButtonClick(<Form2 />)}
+        onClick={() => handleButtonClick(<ApartmentRentalContract  />)}
       >
         Rental Appartment Contract
       </button>
       <button
         className="bg-slate-400 border"
-        onClick={() => handleButtonClick("Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quos. Aspernatur, deleniti. Sed, nam, illo dignissimos quo nisi iusto, necessitatibus quam minus sint voluptatibus enim praesentium corporis aut at asperiores?")}
+        onClick={() => handleButtonClick(<ApartmentSellContract />)}
       >
         Sell Apartment Contract
       </button>
       <button
         className="bg-slate-400 border"
-        onClick={() => handleButtonClick("Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quos. Aspernatur, deleniti. Sed, nam, illo dignissimos quo nisi iusto, necessitatibus quam minus sint voluptatibus enim praesentium corporis aut at asperiores?")}
+        onClick={() => handleButtonClick(<EmployeeWorkContract />)}
       >
         Employee Work Contract
       </button>
       <button
         className="bg-slate-400 border"
-        onClick={() => handleButtonClick("Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quos. Aspernatur, deleniti. Sed, nam, illo dignissimos quo nisi iusto, necessitatibus quam minus sint voluptatibus enim praesentium corporis aut at asperiores?")}
+        onClick={() => handleButtonClick(<PrenuptialContract />)}
       >
-        Prenuptial
+        Prenuptial Contract
       </button>
       <button
         className="bg-slate-400 border"
-        onClick={() => handleButtonClick("Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quos. Aspernatur, deleniti. Sed, nam, illo dignissimos quo nisi iusto, necessitatibus quam minus sint voluptatibus enim praesentium corporis aut at asperiores?")}
+        onClick={() => handleButtonClick(<WarningLetter />)}
       >
         Warning Letter
       </button>
