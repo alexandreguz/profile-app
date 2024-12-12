@@ -1,4 +1,4 @@
-export default function({
+export default function layout({
     children,
 }: Readonly<{
     children: React.ReactNode;

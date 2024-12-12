@@ -3,6 +3,11 @@ import { useParams } from "next/navigation";
 import projectDetails from "@/app/(website)/data/projectsData";
 import Image from "next/image";
 
+export async function generateStaticParams() {
+    // Extraia os IDs dos projetos
+    return Object.keys(projectDetails).map((id) => ({ id }));
+  }
+
 export default function ProjectDetail() {
     const params = useParams();
     const projectId = Array.isArray(params.id) ? params.id[0] : params.id;

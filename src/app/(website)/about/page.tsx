@@ -1,7 +1,7 @@
 import About from "@/components/About";
 
 
-export default function () {
+export default function Home() {
     return (
         <div><About /></div>
     )
