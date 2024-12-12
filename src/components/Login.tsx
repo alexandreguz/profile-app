@@ -43,7 +43,7 @@ export default function Login() {
                 </button>
               </div>
               <p className="text-center mt-24">
-                Don't have an account?
+                Don&apos;t have an account?
                 <span className="text-yellow-900 font-bold">
                   <Link key={"signup"} href={"/signup"}>
                     &nbsp; Sign up now

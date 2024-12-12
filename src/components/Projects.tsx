@@ -53,7 +53,6 @@ export default function Projects() {
             >
               <h2 className="text-2xl font-semibold mb-2">{project.title}</h2>
               <p className="text-lg">{project.description}</p>
-              <img src="" alt="" />
             </div>
           </Link>
         ))}

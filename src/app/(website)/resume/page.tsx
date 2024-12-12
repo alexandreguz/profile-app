@@ -1,6 +1,6 @@
 import Resume from "@/components/Resume";
 
-export default function () {
+export default function Home() {
     return (
         <Resume />
     );

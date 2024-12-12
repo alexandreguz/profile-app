@@ -1,7 +1,7 @@
 import About from "@/components/Contact";
 
 
-export default function () {
+export default function Home() {
     return (
 
                 <div className="p-8 bg-white shadow-md rounded-lg">
