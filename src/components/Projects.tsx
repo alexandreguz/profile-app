@@ -2,36 +2,34 @@ import Link from "next/link";
 
 type ProjectType = "technology" | "religion";
 
-
 const projects: {
   id: string;
   title: string;
   description: string;
   type: ProjectType;
-//   link: string;
 }[] = [
     {
-      id: "task-management",
-      title: "Task Management System",
-      description: "A full-stack task management application built with Angular and Rails.",
+      id: "fit-app",
+      title: "App to control exercises",
+      description: "A responsive app to control workouts using Angular Material.",
       type: "technology",
     },
     {
       id: "personal-website",
       title: "Personal Website",
-      description: "A modern and responsive portfolio website built with Next.js.",
+      description: "A modern and responsive portfolio website built with Next.js and Tailwind.",
       type: "technology",
     },
     {
-      id: "torah-learning",
-      title: "Torah Learning App",
-      description: "An educational app for studying Torah, integrating resources from Sefaria.",
+      id: "yalkut-yossef",
+      title: "Yalkut Yossef Translation",
+      description: "Spread throughout Brazil and other Portuguese-speaking countries. the laws of Shabbat.",
       type: "religion",
     },
     {
-      id: "jewish-history",
-      title: "Jewish History Timeline",
-      description: "An interactive timeline exploring key events in Jewish history.",
+      id: "chabura1",
+      title: "'Achshevei'",
+      description: "A deep and comprehensive explanation of the concept of 'Achshevei' in Halacha",
       type: "religion",
     },
   ];

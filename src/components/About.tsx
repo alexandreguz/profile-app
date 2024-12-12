@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function About() {
     return (
         <>
-            <div className="bg-gradient-to-b from-gray-400 to-gray-200 p-8">
+            <div className="bg-gradient-to-b from-gray-600 to-gray-300">
                 <div className="flex content-normal items-center">
                     <div className="text-6xl font-bold w-1/3 ml-40 text-left text-white mt-32">About Me</div>
                     <div className="text-2xl text-left w-2/5 text-white mt-32 ml-16 border-l-4 border-red-600 pl-20">
@@ -14,7 +14,7 @@ export default function About() {
                 <div className="flex">
                     <div className="mr-32 ml-32 mt-28 w-1/3">
                         <Image
-                            src="/studying.jpeg"
+                            src="/eu5.png"
                             width={620}
                             height={7000}
                             alt="me"
